@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/ # Include this if you have a .venv folder too
+*/venv/
+*/.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+
+# Environment variables
+.env
+.flaskenv
+
+# Logs
+*.log
+logs/ # If you create a 'logs' folder
+
+# Specific IDE files (like VS Code) - optional, but good practice
+.vscode/
+
+# Other common Python temporary/generated files
+*.egg-info/
+.pytest_cache/
+build/
+dist/
